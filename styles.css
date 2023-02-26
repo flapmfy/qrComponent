@@ -12,9 +12,26 @@
 
 body {
     background-color: var(--light-grey);
+    font-family: 'Outfit', sans-serif;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.qr-component {
+    width: 300px;
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: 20px;
+
+    display: flex;
     flex-flow: column nowrap;
 }
